@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { states, departement } from "../data/data";
-import PopUp from "../lib/components/PopUp";
+import { PopUp } from "../lib/index";
 import "./style.css";
 
 function App() {

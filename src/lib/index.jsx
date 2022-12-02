@@ -1,2 +1,2 @@
-import { PopUp } from "./components/PopUp";
+import PopUp from "./components/PopUp";
 export { PopUp };
