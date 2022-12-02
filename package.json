@@ -1,13 +1,21 @@
 {
-  "name": "hr-component-library",
-  "version": "0.1.0",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "web-vitals": "^2.1.4"
+  "name": "mrballerpopup",
+  "author": "brandon_jr",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mrballer59/hr-component-library-popUp"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "build:react": "react-scripts build",
+    "test": "react-scripts test",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "eslintConfig": {
@@ -32,10 +40,15 @@
     "babel-cli": "^6.26.0",
     "react-dom": "^18.2.0",
     "react": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "babel-loader": "^8.3.0",
+    "cross-env": "^7.0.3"
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "4.0.3"
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./popUp.css";
+import "../style/popUp.css";
 
 function PopUp({ setIsOpen }) {
   return (

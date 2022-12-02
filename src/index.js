@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import PopUp from "./lib/PopUp";
+import App from "../src/components/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<PopUp />);
+root.render(<App />);
